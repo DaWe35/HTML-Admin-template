@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cryptomoom.com/admn/admin.css">
+        <style>
+
+body {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 15px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+.content {
+    margin-left: 20%;
+    padding: 10px 20px;
+}
+
+.footer {
+    margin-left: 20%;
+    padding: 0px;
+    position: absolute;
+    bottom: 0px;
+    background-color: #f1f1f1;
+    width: 80vw;
+}
+
+.footer p {
+    margin: 10px 20px;
+}
+
+
+.warning-btn {
+    font-size: 200%;
+    color: #B71C1C;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.warning-btn:hover {
+    background-color: #B71C1C;
+    font-size: 200%;
+    color: #FFF;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.warn-green {
+    padding: 15px 20px;
+    color: #FFF;
+    background-color: #1B5E20;
+}
+
+.headertime {
+    position: absolute; bottom: 0px; margin: 15px; font-size: 12px; color: #455A64;
+}
+        </style>
+    </head>
+    <body>
+        <ul>
+          <li><a class="active" href="index.html">Index</a></li>
+          <li><a href="">Page 1</a></li>
+          <li><a href="">Page 2</a></li>
+          <li><a href="">Page 3</a></li>
+          <li><a href="">Page 4</a></li>
+          <li><a href="">Page 5</a></li>
+          <div class="headertime">Nav foot</div>
+        </ul>
+        
+        <div class="content">Content
+        </div>
+        
+        <div class="footer">
+            <p>
+                Footer...
+            </p>
+        </div>
+
+        <script src="https://cryptomoom.com/admin/admin.js"></script>
+    </body>
+</html>
