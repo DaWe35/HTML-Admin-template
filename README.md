@@ -1,4 +1,4 @@
-# HTML-Admin-template
+# Simple HTML Admin panel template
 Just a minimal HTML Admin template with few lines of css.
 
 Preview:
